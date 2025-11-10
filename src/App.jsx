@@ -7,6 +7,7 @@ import Hero from './component/Hero'
 import Skills from './component/Skills'
 import Projects from './component/Projects'
 import Experience from './component/Experience'
+import Contact from './component/Contacts'
 
 function App() {
  
@@ -18,6 +19,7 @@ function App() {
       <Skills/>
       <Projects/>
       <Experience/>
+      <Contact/>
     </>
   )
 }
