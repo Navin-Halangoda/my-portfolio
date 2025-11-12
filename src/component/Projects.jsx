@@ -3,36 +3,28 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    name: 'E-Commerce Platform',
-    description: 'Full-stack online store with payment integration, user authentication, and admin dashboard.',
-    tech: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS'],
-    github: '#',
+    name: 'Library Management System',
+    description: 'A full-stack web application designed to efficiently manage and streamline library operations.',
+    tech: ['React', 'Node.js (Express)', 'Mysql', 'Bootstrap'],
+    github: 'https://github.com/Navin-Halangoda/Library-management-system.git',
     demo: '#',
-    image: '/images/ecommerce.jpg' // add your project image path
+    image: 'library.jpg' 
   },
   {
-    name: 'Task Management App',
-    description: 'Collaborative task tracker with real-time updates and team management features.',
-    tech: ['React', 'Firebase', 'Tailwind CSS'],
-    github: '#',
+    name: 'Fot Announcer App',
+    description: 'A mobile application for sharing faculty news and announcements',
+    tech: ['Figma','Anroid Studio','Firebase','Java','XML'],
+    github: 'https://github.com/Navin-Halangoda/FOT-Announcer.git',
     demo: '#',
-    image: '/images/taskapp.jpg'
+    image: 'fot.png'
   },
   {
-    name: 'Weather Dashboard',
-    description: 'Interactive weather application with geolocation and 7-day forecast visualization.',
-    tech: ['React', 'API Integration', 'Tailwind CSS'],
-    github: '#',
+    name: 'Portfolio',
+    description: '',
+    tech: ['React','Tailwind Css',],
+    github: 'https://github.com/Navin-Halangoda/my-portfolio.git',
     demo: '#',
-    image: '/images/weather.jpg'
-  },
-  {
-    name: 'Portfolio CMS',
-    description: 'Content management system for portfolios with drag-and-drop interface.',
-    tech: ['React', 'Express', 'MongoDB', 'Node.js'],
-    github: '#',
-    demo: '#',
-    image: '/images/portfolio-cms.jpg'
+    image: 'protfolio.png'
   }
 ];
 
@@ -78,12 +70,12 @@ export default function Projects() {
                   >
                     <Github className="w-5 h-5" /> GitHub
                   </a>
-                  <a
+                  {/* <a
                     href={project.demo}
                     className="flex items-center gap-2 text-blue-600 hover:underline"
                   >
                     <ExternalLink className="w-5 h-5" /> Live Demo
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

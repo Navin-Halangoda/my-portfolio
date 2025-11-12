@@ -41,18 +41,18 @@ export default function Hero({ scrollToSection }) {
         <div className="flex justify-center">
           <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto">
  <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto">
-  {/* Glowing background */}
+  
   <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 via-purple-600 to-pink-500 opacity-40 blur-3xl animate-pulse"></div>
   
-  {/* Profile container */}
+  
   <div className="relative w-full h-full rounded-full bg-gradient-to-br from-blue-600 to-purple-700 flex items-center justify-center shadow-xl overflow-hidden">
     
    
     <img
-      src="profile.jpg"
+      src="profile2.jpg"
       alt="NS"
       className="w-full h-full object-cover rounded-full transform transition-transform duration-500 hover:scale-105 object-top-[30%]"
-      style={{ objectPosition: 'center 20%' }} 
+      style={{ objectPosition: 'center 10%' }} 
     />
 
     
