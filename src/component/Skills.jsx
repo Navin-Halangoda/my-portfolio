@@ -2,10 +2,12 @@ import React from 'react';
 import { Layout, Server, Database, Code } from 'lucide-react';
 
 const skillsData = [
-  { category: 'Frontend', icon: <Layout className="w-6 h-6" />, items: ['React', 'Tailwind CSS', 'HTML/CSS', 'JavaScript'] },
+  { category: 'Frontend', icon: <Layout className="w-6 h-6" />, items: ['React', 'Tailwind CSS', 'HTML/CSS', 'JavaScript','Bootstrap'] },
   { category: 'Backend', icon: <Server className="w-6 h-6" />, items: ['Node.js', 'Express', 'REST APIs'] },
   { category: 'Database', icon: <Database className="w-6 h-6" />, items: ['MongoDB', 'Firebase', 'MySQL'] },
-  { category: 'Tools', icon: <Code className="w-6 h-6" />, items: ['Git/GitHub', 'VS Code', 'Postman'] }
+  { category: 'Tools', icon: <Code className="w-6 h-6" />, items: ['Git/GitHub', 'VS Code', 'Postman','Android Studio','Figma'] },
+  { category: 'Technologies', icon: <Code className="w-6 h-6" />, items: ['C','python'] }
+
 ];
 
 export default function Skills() {
