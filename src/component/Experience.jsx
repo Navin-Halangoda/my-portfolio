@@ -8,7 +8,7 @@ export default function Experience() {
           <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Experience & Education</span>
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
-          {/* Education */}
+          {/* Educatio*/}
           <div className="p-8 bg-gray-50 rounded-xl hover:shadow-xl transition-all">
             <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center text-white text-xl font-bold mb-4">
               Ed
