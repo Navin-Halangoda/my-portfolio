@@ -6,7 +6,7 @@ const projects = [
     name: 'Library Management System',
     description: 'A full-stack web application designed to efficiently manage and streamline library operations.',
     tech: ['React', 'Node.js (Express)', 'Mysql', 'Bootstrap'],
-    github: 'https://github.com/Navin-Halangoda/Library-management-system.git',
+    github: 'https://github.com/Navin-Halangoda/mini-project.git',
     demo: '#',
     image: 'library.jpg' 
   },
